@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "skeletonhorsespawn",
-  "version": "3.9",
+  "version": "4.0",
 
   "name": "Skeleton Horse Spawn",
   "description": "Allows the skeleton horse to spawn naturally with a skeleton riding it and other tweaks.",
@@ -23,7 +23,7 @@
     "fabric": "*",
     "minecraft": ">=1.21",
     "java": ">=21",
-    "collective": ">=7.61"
+    "collective": ">=7.78"
   },
 
   "custom": {
@@ -44,11 +44,9 @@
 	  " Alister",
 	  " Andrean Olgo",
 	  " aternosorg",
-	  " BirdieMiner",
 	  " Cherriesaurus",
-	  " Jeremy Langford",
 	  " Michael W. S.",
-	  " Rare Students",
+	  " Nahuel Fernandez",
 	  " Shana Gitnick",
 	  " Tyler Behl"
   ]
