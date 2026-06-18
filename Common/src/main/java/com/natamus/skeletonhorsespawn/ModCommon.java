@@ -2,7 +2,7 @@ package com.natamus.skeletonhorsespawn;
 
 import com.natamus.collective.objects.SAMObject;
 import com.natamus.skeletonhorsespawn.config.ConfigHandler;
-import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.EntityTypes;
 
 public class ModCommon {
 
@@ -12,6 +12,6 @@ public class ModCommon {
 	}
 
 	private static void load() {
-		new SAMObject(EntityType.SKELETON, EntityType.SKELETON_HORSE, null, ConfigHandler.chanceSurfaceSkeletonHasHorse, false, true, ConfigHandler.onlySpawnSkeletonHorsesOnSurface);
+		new SAMObject(EntityTypes.SKELETON, EntityTypes.SKELETON_HORSE, null, ConfigHandler.chanceSurfaceSkeletonHasHorse, false, true, ConfigHandler.onlySpawnSkeletonHorsesOnSurface);
 	}
 }
