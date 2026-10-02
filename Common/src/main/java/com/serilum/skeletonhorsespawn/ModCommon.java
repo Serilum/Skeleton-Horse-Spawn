@@ -1,7 +1,7 @@
-package com.natamus.skeletonhorsespawn;
+package com.serilum.skeletonhorsespawn;
 
 import com.natamus.collective.objects.SAMObject;
-import com.natamus.skeletonhorsespawn.config.ConfigHandler;
+import com.serilum.skeletonhorsespawn.config.ConfigHandler;
 import net.minecraft.world.entity.EntityTypes;
 
 public class ModCommon {
