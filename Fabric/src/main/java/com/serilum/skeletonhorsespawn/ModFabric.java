@@ -1,9 +1,9 @@
-package com.natamus.skeletonhorsespawn;
+package com.serilum.skeletonhorsespawn;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.skeletonhorsespawn.events.SkeletonHorseEvent;
-import com.natamus.skeletonhorsespawn.util.Reference;
+import com.serilum.skeletonhorsespawn.events.SkeletonHorseEvent;
+import com.serilum.skeletonhorsespawn.util.Reference;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerEntityEvents;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
