@@ -1,6 +1,6 @@
-package com.natamus.skeletonhorsespawn.forge.events;
+package com.serilum.skeletonhorsespawn.forge.events;
 
-import com.natamus.skeletonhorsespawn.events.SkeletonHorseEvent;
+import com.serilum.skeletonhorsespawn.events.SkeletonHorseEvent;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.level.Level;
 import net.minecraftforge.event.TickEvent.LevelTickEvent;

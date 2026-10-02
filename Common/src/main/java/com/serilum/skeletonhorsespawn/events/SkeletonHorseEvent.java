@@ -1,8 +1,8 @@
-package com.natamus.skeletonhorsespawn.events;
+package com.serilum.skeletonhorsespawn.events;
 
 import com.natamus.collective.functions.BlockPosFunctions;
 import com.natamus.collective.functions.HashMapFunctions;
-import com.natamus.skeletonhorsespawn.config.ConfigHandler;
+import com.serilum.skeletonhorsespawn.config.ConfigHandler;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.entity.Entity;

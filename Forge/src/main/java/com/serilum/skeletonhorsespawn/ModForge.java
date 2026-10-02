@@ -1,10 +1,10 @@
-package com.natamus.skeletonhorsespawn;
+package com.serilum.skeletonhorsespawn;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.skeletonhorsespawn.forge.config.IntegrateForgeConfig;
-import com.natamus.skeletonhorsespawn.forge.events.ForgeSkeletonHorseEvent;
-import com.natamus.skeletonhorsespawn.util.Reference;
+import com.serilum.skeletonhorsespawn.forge.config.IntegrateForgeConfig;
+import com.serilum.skeletonhorsespawn.forge.events.ForgeSkeletonHorseEvent;
+import com.serilum.skeletonhorsespawn.util.Reference;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModLoadingContext;
