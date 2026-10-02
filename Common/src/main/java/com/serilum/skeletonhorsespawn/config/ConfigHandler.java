@@ -1,7 +1,7 @@
-package com.natamus.skeletonhorsespawn.config;
+package com.serilum.skeletonhorsespawn.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.skeletonhorsespawn.util.Reference;
+import com.serilum.skeletonhorsespawn.util.Reference;
 
 import java.util.Arrays;
 import java.util.HashMap;

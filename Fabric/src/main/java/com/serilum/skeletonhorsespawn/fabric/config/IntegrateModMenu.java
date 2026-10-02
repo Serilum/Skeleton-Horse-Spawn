@@ -1,7 +1,7 @@
-package com.natamus.skeletonhorsespawn.fabric.config;
+package com.serilum.skeletonhorsespawn.fabric.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.skeletonhorsespawn.util.Reference;
+import com.serilum.skeletonhorsespawn.util.Reference;
 import com.terraformersmc.modmenu.api.ConfigScreenFactory;
 import com.terraformersmc.modmenu.api.ModMenuApi;
 

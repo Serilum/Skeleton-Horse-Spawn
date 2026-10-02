@@ -1,7 +1,7 @@
-package com.natamus.skeletonhorsespawn.forge.config;
+package com.serilum.skeletonhorsespawn.forge.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.skeletonhorsespawn.util.Reference;
+import com.serilum.skeletonhorsespawn.util.Reference;
 import net.minecraftforge.client.ConfigScreenHandler;
 import net.minecraftforge.fml.ModLoadingContext;
 
