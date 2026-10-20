@@ -13,6 +13,8 @@ public class ConfigHandler extends DuskConfig {
 	@Entry(min = 0, max = 1.0) public static double chanceSurfaceSkeletonHasHorse = 0.05;
 	@Entry public static boolean shouldBurnSkeletonHorsesInDaylight = true;
 	@Entry public static boolean onlySpawnSkeletonHorsesOnSurface = true;
+	@Entry(registry = "dimension") public static String dimensionsToSpawnIn = "";
+	@Entry(registry = "worldgen/biome") public static String biomesToSpawnIn = "";
 
 	public static void initConfig() {
 		configMetaData.put("chanceSurfaceSkeletonHasHorse", Arrays.asList(
@@ -23,6 +25,12 @@ public class ConfigHandler extends DuskConfig {
 		));
 		configMetaData.put("onlySpawnSkeletonHorsesOnSurface", Arrays.asList(
 			"If enabled, a skeleton horse with rider will only spawn on the surface."
+		));
+		configMetaData.put("dimensionsToSpawnIn", Arrays.asList(
+			"Dimensions in which skeletons can spawn riding a skeleton horse, separated by a comma. Leave empty for every dimension. For example: 'minecraft:overworld'."
+		));
+		configMetaData.put("biomesToSpawnIn", Arrays.asList(
+			"Biomes in which skeletons can spawn riding a skeleton horse, separated by a comma. Biome tags work too, starting with a '#'. Leave empty for every biome. For example: 'minecraft:plains,#minecraft:is_savanna'."
 		));
 
 		DuskConfig.init(Reference.NAME, Reference.MOD_ID, ConfigHandler.class);
