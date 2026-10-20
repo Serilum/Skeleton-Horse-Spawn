@@ -13,6 +13,7 @@ public class ConfigHandler extends DuskConfig {
 	@Entry(min = 0, max = 1.0) public static double chanceSurfaceSkeletonHasHorse = 0.05;
 	@Entry public static boolean shouldBurnSkeletonHorsesInDaylight = true;
 	@Entry public static boolean onlySpawnSkeletonHorsesOnSurface = true;
+	@Entry public static boolean skeletonHorsesCanDespawn = true;
 	@Entry(registry = "dimension") public static String dimensionsToSpawnIn = "";
 	@Entry(registry = "worldgen/biome") public static String biomesToSpawnIn = "";
 
@@ -25,6 +26,9 @@ public class ConfigHandler extends DuskConfig {
 		));
 		configMetaData.put("onlySpawnSkeletonHorsesOnSurface", Arrays.asList(
 			"If enabled, a skeleton horse with rider will only spawn on the surface."
+		));
+		configMetaData.put("skeletonHorsesCanDespawn", Arrays.asList(
+			"If enabled, skeleton horses spawned by the mod despawn like other monsters when no player is near. A horse with a saddle, an owner, a name tag or a lead stays."
 		));
 		configMetaData.put("dimensionsToSpawnIn", Arrays.asList(
 			"Dimensions in which skeletons can spawn riding a skeleton horse, separated by a comma. Leave empty for every dimension. For example: 'minecraft:overworld'."

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "skeletonhorsespawn",
-  "version": "4.4",
+  "version": "4.5",
 
   "name": "Skeleton Horse Spawn",
   "description": "Allows the skeleton horse to spawn naturally with a skeleton riding it and other tweaks.",
@@ -17,6 +17,9 @@
 
   "environment": "*",
   "entrypoints": { "main": [ "com.serilum.skeletonhorsespawn.ModFabric" ], "modmenu": [ "com.serilum.skeletonhorsespawn.fabric.config.IntegrateModMenu" ] },
+  "mixins": [
+    "skeletonhorsespawn.mixins.json"
+  ],
 
   "depends": {
     "fabricloader": ">=0.12.5",
